@@ -1,12 +1,12 @@
-run = ["bash", "main.sh"]
+run = ["bash", "AutomateKali.sh"]
 
-entrypoint = "main.sh"
+entrypoint = "AutomateKali.sh"
 
 [nix]
 channel = "stable-22_11"
 
 [deployment]
-run = ["sh", "-c", "bash main.sh"]
+run = ["sh", "-c", "bash AutomateKali.sh"]
 
 [languages]
 

@@ -38,19 +38,9 @@ function file_manipulation() {
     esac
 }
 
-# Main menu
-while true; do
-    echo "1. Network scanning and discovery"
-    echo "2. Port scanning"
-    echo "3. Password auditing"
-    echo "4. File manipulation"
-    echo "5. Exit"
-    read -p "Choose an option (1-5): " option
-
 # WHOIS lookup
 function whois_lookup() {
     read -p "Enter a domain or IP address: " target
-
     whois "$target"
 }
 
@@ -65,18 +55,23 @@ function main_menu() {
     while true; do
         echo "===== Welcome to RosybrownJoyousAutomatedinformationsystem ====="
         echo "1. Network scanning and discovery"
-        echo "2. Password auditing"
-        echo "3. File encryption/decryption"
-        echo "4. WHOIS lookup"
-        echo "5. Exit"
+        echo "2. Port scanning"
+        echo "3. Password auditing"
+        echo "4. File manipulation"
+        echo "5. WHOIS lookup"
+        echo "6. DNS Lookup"
+        echo "7. Exit"
         read -p "Choose an option: " option
+
         case $option in
             1) network_scan;;
-            2) password_audit ;;
-            3) file_manipulation ;;
-            4) whois_lookup ;;
-            5) exit ;;
-            *) echo "Invalid option" ;;
+            2) port_scan ;;
+            3) password_audit ;;
+            4) file_manipulation ;;
+            5) whois_lookup ;;
+            6) dns_lookup ;;
+            7) exit ;;
+            *) echo "Invalid option. Try again!" ;;
         esac
     done
 }
