@@ -15,7 +15,7 @@ This project uses a simple bash script (`AutomateKali.sh`) to automate the follo
 
 ## 🤖 How It Works
 
-The script presents an interactive menu to the user, where they can select which function they'd like to perform. 
+The script presents an interactive menu to the user, where they can select which function they'd like to perform.
 
 ## ⚡ Getting Started
 
@@ -40,3 +40,4 @@ Clone the repository, then make sure the script is executable:
 ```bash
 git clone https://github.com/canstralian/KaliAutoInfo
 chmod +x AutomateKali.sh
+```

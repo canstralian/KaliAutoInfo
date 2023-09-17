@@ -59,4 +59,10 @@ sudo iptables -I FORWARD -i eth0 -j ACCEPT
 
 # Terminate rest of the script here
 # Rest of the lines seem to be repeating commands for non-existent services, removing them for script optimization
+sudo systemctl stop wireguard
+sudo systemctl stop openvpn
+sudo systemctl disable wireguard
+sudo systemctl disable openvpn
+sudo rm -rf openvpn-install.sh
+sudo rm -rf wireguard-install.sh
 
