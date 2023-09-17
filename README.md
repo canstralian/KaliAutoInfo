@@ -38,5 +38,5 @@ Ensure you have these programs installed on your Kali Linux system.
 Clone the repository, then make sure the script is executable:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/canstralian/KaliAutoInfo
 chmod +x AutomateKali.sh

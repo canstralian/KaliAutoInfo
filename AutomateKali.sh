@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Install lolcat if it isn't installed
+if ! command -v lolcat &> /dev/null
+then
+    sudo apt install lolcat -y
+fi
+
 # Network scanning and discovery
 function network_scan() {
     read -p "Enter the IP range to scan (e.g., 192.168.0.1-254): " ip_range
