@@ -3,22 +3,22 @@
 
 AutomateKali.sh
 
-!License
-!Issues
-!Last Commit
-!Stars ￼ ￼
+- License
+- Issues
+- Last Commit
+- Stars ￼ ￼
 
 ⸻
 
 ## 🎯 Project Goals
 
-AutomateKali.sh is a Bash script designed to streamline routine tasks on Kali Linux, including:
-   •   Network Scanning and Discovery
-   •   Port Scanning
-   •   Password Auditing
-   •   File Encryption and Decryption
-   •   WHOIS Lookup
-   •   DNS Lookup ￼
+AutomateKali.sh is a Bash script designed to streamline routine tasks on Kali Linux, 
+- Network Scanning and Discovery
+- Port Scanning
+- Password Auditing
+- File Encryption and Decryption
+- WHOIS Lookup
+- DNS Lookup ￼
 
 ⸻
 
